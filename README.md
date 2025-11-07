@@ -4,7 +4,17 @@
 
 It is linked to `/vol0402/data/hp150272/u12262/`
 
-## `~/data/
+## `~/data/abltide`
+
+`240rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-240rep/3_rounds/31_round31`
+It is the round of 2D gREST/REUS (adjust the parameter slightly).
+They all used an insufficiently large water layer (`atp-complex-solv.prmtop`, not 35)
+I backed up `reus-tune-atpcomplex-240rep-tune31.inp`, `reus-tune-atpcomplex-240rep-tune31.sh`, `output.29520396`.
+**finished**
+
+`288rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-288rep/3_rounds/34_round34`
+`336rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-336rep/3_rounds/40_round40`
+`384rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-384rep/3_rounds/33_round33`
 
 <!-- ========================================= -->
 
