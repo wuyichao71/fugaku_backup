@@ -6,15 +6,43 @@ It is linked to `/vol0402/data/hp150272/u12262/`
 
 ## `~/data/abltide`
 
-`240rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-240rep/3_rounds/31_round31`  
+### `~/data/abltide/old-data`
+
+The directory is a sub-backup of `/vol0004/hp150272/data/u10374/abl-abltide`  
+We backup the `.inp`, `.sh` for the last round of `3_rounds` (`/vol0004/hp150272/data/u10374/abl-abltide/tune-2d/atpcomplex-*rep/3_rounds/`)  
+For rerun, we also backup the previous `.rst` (`/vol0004/hp150272/data/u12262/abltide/old-data/abl-abltide/tune-2d/atpcomplex-*rep/2_tune/*.rst`) and `files` (`/vol0004/hp150272/data/u12262/abltide/old-data/abl-abltide/files`)
+
+`abl-abltide/tune-2d/atpcomplex-240rep/3_rounds/240rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-240rep/3_rounds/31_round31`  
+Total `73G`  
 It is the round of 2D gREST/REUS (adjust the parameter slightly).  
-They all used an insufficiently large water layer (`atp-complex-solv.prmtop`, not 35)  
-I backed up `reus-tune-atpcomplex-240rep-tune31.inp`, `reus-tune-atpcomplex-240rep-tune31.sh`, `output.29520396`.  
+It used an insufficiently large water layer (`atp-complex-solv.prmtop`, not 35)  
+We backup `reus-tune-atpcomplex-240rep-tune31.inp`, `reus-tune-atpcomplex-240rep-tune31.sh`, `output.29520396`.  
+I do not have permission for `output.29520396`  
 **finished**
 
-`288rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-288rep/3_rounds/34_round34`
-`336rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-336rep/3_rounds/40_round40`
-`384rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-384rep/3_rounds/33_round33`
+`abl-abltide/tune-2d/atpcomplex-288rep/3_rounds/288rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-288rep/3_rounds/34_round34`  
+Total `307G`  
+It is the round of 2D gREST/REUS (adjust the parameter slightly).  
+It used a 35 water layer (`atp-complex-solv35.prmtop`)  
+We backup `reus-tune-atpcomplex-288rep-tune34.inp`, `reus-tune-atpcomplex-288rep-tune34.sh`, `output.29601559`.  
+I do not have permission for `output.29601559`  
+**finished**
+
+`abl-abltide/tune-2d/atpcomplex-336rep/3_rounds/336rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-336rep/3_rounds/40_round40`  
+Total `358G`  
+It is the round of 2D gREST/REUS (adjust the parameter slightly).  
+It used a 35 water layer (`atp-complex-solv35.prmtop`)  
+We backup `reus-tune-atpcomplex-336rep-tune40.inp`, `reus-tune-atpcomplex-336rep-tune40.sh`, `output.29726777`.  
+I do not have permission for `output.29726777`  
+**finished**
+
+`abl-abltide/tune-2d/atpcomplex-384rep/3_rounds/384rep` is linked to `/vol0402/data/hp150272/u10374/abl-abltide/tune-2d/atpcomplex-384rep/3_rounds/33_round33`  
+Total `409G`  
+It is the round of 2D gREST/REUS (adjust the parameter slightly).  
+It used a 35 water layer (`atp-complex-solv35.prmtop`)  
+We backup `reus-tune-atpcomplex-384rep-tune33.inp`, `reus-tune-atpcomplex-384rep-tune33.sh`, `output.29690389`.  
+I do not have permission for `output.29690389`  
+**finished**
 
 <!-- ========================================= -->
 
