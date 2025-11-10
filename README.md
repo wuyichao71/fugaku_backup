@@ -44,6 +44,76 @@ We backup `reus-tune-atpcomplex-384rep-tune33.inp`, `reus-tune-atpcomplex-384rep
 I do not have permission for `output.29690389`  
 **finished**
 
+`~/data/abltide/old-data` backup in `~/Documents/abltide/old-data` and `/work/wuyichao/work/abltide/old-data`.
+
+### `~/data/abltide/abl-abltide`
+
+This is a link of `/vol0004/hp150272/data/u10374/abl-abltide`  
+Just for convenience, do not need backup
+
+### `~/data/abltide/old-analy-data`
+
+This is a link of `/vol0004/hp150272/data/u10374/share/abl-abltide-test`  
+This is data shared by others.  
+`analysis`: I do not have permission, do not backup.  
+`files`: `atp-complex-prot.inpcrd`, `atp-complex-prot.pdb`, `atp-complex-prot.prmtop` copied to `~/data/abltide/old-data/abl-abltide/files`, do not backup  
+We just link it to `~/data/abltide/old-data/abl-abltide/files/*`  
+`grest`: `grest/1-prod` seems the runned of `/vol0004/hp150272/data/u10374/abl-abltide/tune-grest/atpcmoplex-solv35/round6_final`.  
+we backup those files.
+
+```bash
+grest/1-prod/grest_prod.inp
+grest/1-prod/grest_prod.sh
+grest/1-prod/grest_prod.out
+grest/1-prod/conv/grest_conv.inp
+grest/1-prod/conv/grest_conv.sh
+grest/1-prod/sort/grest_sort.inp
+grest/1-prod/sort/grest_sort.sh
+grest/1-prod/sorthyd/grest_sorthyd.inp
+grest/1-prod/sorthyd/grest_sorthyd.sh
+```
+
+`grest-reus`: `reus/1-grest-reus`, the rstfile backup in `~/data/abltide/old-data/abl-abltide/tune-2d/atpcomplex-240rep/2_tune/reus-tune-atpcomplex-240rep-tune-rep*.rst`.  
+we backup those files.
+
+```bash
+grest-reus/1-grest-reus/grest_reus_prod.inp
+grest-reus/1-grest-reus/grest_reus_prod.sh
+grest-reus/1-grest-reus/output.29136526/0/1/stdout.1.0
+grest-reus/1-grest-reus/conv/grest_reus_conv.inp
+grest-reus/1-grest-reus/conv/grest_reus_conv.sh
+grest-reus/1-grest-reus/sort/grest_reus_sort.inp
+grest-reus/1-grest-reus/sort/grest_reus_sort.sh
+grest-reus/1-grest-reus/sorthyd/grest_reus_sorthyd.inp
+grest-reus/1-grest-reus/sorthyd/grest_reus_sorthyd.sh
+```
+
+`reus`: `reus/1-reus`, the rstfile backup in `~/data/abltide/old-data/abl-abltide/tune-reus/atpcomplex-30rep/2_tune/reus-tune-atpcomplex-solv14-30rep-tune-rep*.rst`  
+we backup those files.
+
+```bash
+reus/1-reus/reus_prod.inp
+reus/1-reus/reus_prod.sh
+reus/1-reus/output.29136543/0/1/stdout.1.0
+reus/1-reus/conv/reus_conv.inp
+reus/1-reus/conv/reus_conv.sh
+reus/1-reus/sort/reus_sort.inp
+reus/1-reus/sort/reus_sort.sh
+reus/1-reus/sorthyd/reus_sorthyd.inp
+reus/1-reus/sorthyd/reus_sorthyd.sh
+```
+
+**finished**
+
+### `~/data/abltide/old-analy`
+
+The `.dcd`, `.log`, `.pdb` are remove from this directory.  
+Only backup input and script.  
+In `cell` local, there are some analysis script.  
+We remove the trajectories and save the analyzed data.
+
+**finished**
+
 <!-- ========================================= -->
 
 # abltide
