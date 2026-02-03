@@ -114,6 +114,43 @@ We remove the trajectories and save the analyzed data.
 
 **finished**
 
+### `~/data/abltide/production`
+
+#### `~/data/abltide/production/analy`
+
+##### `~/data/abltide/production/analy/288rep`
+
+`0.1_correct_run172` is backup and checked all the script. **finished**
+`0.2_rerun` is backup and checked all the script. **finished**
+`0_standard` is backup and checked all the script. **finished**
+`1_comdist` is backup and checked all the script. **finished**
+`3_contact_number` is bakcup and checked all the scripts. **finished**
+`5_sort_comdist` is backup and checked all the scripts. **finished**
+`11_qval` is backup and checked all the script. **finished**
+`12_rmsd` is backup and checked all the script. **finished**
+`16_mbar_reus` is backup and checked all the script. **finished**
+`17_plot_reweight` is backup and checked all the script. **finished**
+`18_comdist_check` is backup and checked all the script. **finished**
+`19_kmeans_check` is backup and checked all the script. **finished**
+`20_kmeans` 
+
+##### `~/data/abltide/production/analy/336rep`
+
+`0.1_correct_run139`
+`0.2_rerun`
+`0_standard`
+`1_comdist`
+`5_sort_comdist`
+`11_qval`
+`12_rmsd`
+`16_mbar_reus`
+`17_plot_reweight`
+`18_comdist_check`
+
+##### `~/data/abltide/production/analy/atpcomplex-cmd`
+
+##### `~/data/abltide/production/analy/atpcomplex-cmd-unbound`
+
 <!-- ========================================= -->
 
 # abltide
@@ -149,7 +186,7 @@ For this part, we need to handle it carefully
 
 ## `~/data3/igf1r/prod/grest_loop/wt/prod/1`
 
-`~/data3/igf1r/prod/grest_loop/wt/prod/1/run*` has been moved to `run420`
+`~/data3/igf1r/prod/grest_loop/wt/prod/1/run*` has been moved to `run500`
 **under rsync**
 
 `~/data3/igf1r/prod/grest_loop/wt/prod/1/run*/sortwater` has been rsynced to `run500`.
@@ -173,23 +210,46 @@ For this part, we need to handle it carefully
 
 ## `~/data3/igf1r/prod/grest_loop/wt/prod/2`
 
-`~/data3/igf1r/prod/grest_loop/wt/prod/2/run*` has been moved to `run300`
+`~/data3/igf1r/prod/grest_loop/wt/prod/2/run*` has been moved to `run500`
 **under rsync**
 
-`~/data3/igf1r/prod/grest_loop/wt/prod/2/run*/sortwater` has been rsynced to `run395`.
-`run1` to `run300` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sortwater`).
-**under rsync**
+`~/data3/igf1r/prod/grest_loop/wt/prod/2/run*/sortwater` has been rsynced to `run500`.
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sortwater/grest*_sortwater.pdb`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sortwater/grest*_sortwater_rep1.dcd`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sortwater/grest*_sortwater_rep1.log`).
+
+`~/data3/igf1r/prod/grest_loop/wt/prod/2/run*/conv` has been rsynced to `run500`.
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/conv`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort.pdb`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.dcd`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.log`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.ene`).
+
+`~/data3/igf1r/prod/grest_loop/wt/prod/1/run*/sort` has been rsynced to `run500`.
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort.pdb`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.dcd`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.log`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/wt/2/run*/sort/grest*_sort_rep*.ene`).
 
 ## `~/data3/igf1r/prod/grest_loop/dm/prod/1`
 
-`~/data3/igf1r/prod/grest_loop/dm/prod/1/run*` has been moved to `run300`
+`~/data3/igf1r/prod/grest_loop/dm/prod/1/run*` has been moved to `run500`
 **under rsync**
 
-`~/data3/igf1r/prod/grest_loop/dm/prod/1/run*/sortwater` has been rsynced to `run401`.
-`run1` to `run300` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sortwater`).
-**under rsync**
+`~/data3/igf1r/prod/grest_loop/dm/prod/1/run*/sortwater` has been rsynced to `run500`.
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sortwater/grest*_sortwater.pdb`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sortwater/grest*_sortwater_rep1.dcd`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sortwater/grest*_sortwater_rep1.log`).
+
+`~/data3/igf1r/prod/grest_loop/dm/prod/1/run*/conv` has been rsynced to `run500`.
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/conv`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sort/grest*_sort.pdb`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sort/grest*_sort_rep*.dcd`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sort/grest*_sort_rep*.log`).
+`run1` to `run500` have been moved (`~/data2/trash/grest_loop/dm/1/run*/sort/grest*_sort_rep*.ene`).
 
 ## `~/data3/igf1r/prod/grest_loop/dm/prod/2`
 
-`~/data3/igf1r/prod/grest_loop/dm/prod/2/run*` has been moved to `run300`
+`~/data3/igf1r/prod/grest_loop/dm/prod/2/run*` has been moved to `run500`
 **under rsync**
